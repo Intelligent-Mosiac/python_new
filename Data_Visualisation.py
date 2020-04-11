@@ -1,10 +1,10 @@
 import matplotlib.pyplot as plt
 import numpy as np
 
-'''
+
 p=[1,2,4,5]
 q=[45,64,34,12]
-plt,plot(p,q)
+plt.plot(p,q)
 plt.xlabel("time")
 plt.ylabel("I")
 plt.title('Mi')
@@ -13,14 +13,13 @@ plt.show()
 #For subplot creation
 x=[i for i in range(10)]
 y=[i*i for i in range(10,20)]
-z=[i*2 for i in range(10,20)]
-
-plt.subplot(2,1,1)
+z=[i*2 for i in range(10,20)]plt.subplot(2,1,1)
 plt.plot(x,y)
 plt.subplot(2,1,2)
 plt.plot(x,z)
-plt.show()'''
-'''x=np.arange(-10,10,0.1)
+plt.show()
+
+x=np.arange(-10,10,0.1)
 print(len(x))
 #Graph for quadratic formula/cos value
 i=np.arange(-10,10,0.1)
