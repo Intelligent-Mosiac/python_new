@@ -11,6 +11,7 @@ plt.title('Mi')
 plt.show()
 
 #For subplot creation
+
 x=[i for i in range(10)]
 y=[i*i for i in range(10,20)]
 z=[i*2 for i in range(10,20)]
@@ -22,11 +23,13 @@ plt.show()
 
 x=np.arange(-10,10,0.1)
 print(len(x))
+
 #Graph for quadratic formula/cos value
 i=np.arange(-10,10,0.1)
 j=i*i +2*j +5
 plt.plot(i,j)
 plt.show()
+
 #Bar Graph the format is plt.bar(x,y,color,width,label)
 x=[i for i in range(10)]
 y=[4,1,2,34,4,5,6,7,1,2]
