@@ -1,18 +1,19 @@
 print("I will now count my chickens :") # Counts Chickens 
 
-print("Hens",25+30/6)
-print("Roosters",100-25*3%4)
+print("Hens",float(25+30/6))
+print("Roosters",float(100-25*3%4))
 
 print("Now i will count the eggs:")# Counts eggs
 
-print (3 + 2+ 1- 5+ 4 % 2 -1 / 4 +6) # Long calculation
+a=float((3 + 2+ 1- 5+ 4 % 2 -1 / 4 +6)) # Long calculation
+print(a)
 
 print("Is it true that 3+2 <5-7") # False due to Line 12 reason
 
 print(3+2 < 5-7) # since L.H.S greater than R.H.S thus this returns false
 
-print("What is 3+2?",3+2)# Prints Both 
-print("What is 5-7?",5-7)#Prints both
+print("What is 3+2?",float(3+2))# Prints Both 
+print("What is 5-7?",float(5-7))#Prints both
 
 print("Oh that's why it's False") # Refer Line 12 for reason
 
