@@ -28,3 +28,23 @@ List2=[10,2,3,4]
 print(len(List2))
 
 #Append of List
+List=[]
+print("Intial Blank List:")
+print(List)
+
+List.append(1)
+List.append(3)
+print("\nList after addition of element")
+print(List)
+
+#Slicing Operation
+List4=['A','N','I','R','U','D','D','H']
+print(List4)
+#Few examples
+Sliced_List=List4[5:]
+print(Sliced_List)
+
+Sliced_List=List4[::-1]#Reverses the order of the list
+print(Sliced_List)
+
+#List Comphrensions
