@@ -11,5 +11,5 @@ for i in range(len(l)):
 print(s)
 print(avg)
 l.count(20)
-#Lists are mutable
+#Lists are mutable;Joining the lists
 
