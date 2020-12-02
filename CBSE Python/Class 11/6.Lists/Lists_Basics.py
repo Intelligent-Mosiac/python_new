@@ -12,4 +12,8 @@ print(s)
 print(avg)
 l.count(20)
 #Lists are mutable;Joining the lists
-
+l=[]
+for i in range(50):
+    l.append(i*i)
+print(l)
+#Program 3
