@@ -4,7 +4,7 @@ list1=[High,Medium,Low,Marked as Read]
 list2=[]
 for i in range(1,n+1):
     list2.append(i)
-list1.list2.append
+py.list1+list2.append()
 print()
 
 
